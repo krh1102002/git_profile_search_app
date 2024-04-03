@@ -1,0 +1,25 @@
+<div class="container mt-3">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="card-header bg-secondary text-white"><h4>GitHub User Search</h4></div>
+          <div class="card-body">
+            <form class="form-inline" (submit)="searchUser()">
+              <div class="form-group" style="display: flex;">
+                <input [(ngModel)]="githubUserQuery" name="user" style="width: 100%;
+                margin-right: 8px;
+            " type="search" class="form-control" placeholder="Enter User Name" required>
+                <input type="submit" value="Search" class="btn btn-secondary btn-sm px-3" style="font-weight: bolder;">
+              </div>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <app-github-profile [githubProfile]="githubProfile"></app-github-profile>
+        </div>
+    </div>
+  </div>

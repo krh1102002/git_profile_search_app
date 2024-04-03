@@ -1,0 +1,11 @@
+<div class="card">
+    
+    <img [src]="githubProfile.avatar_url" alt="Profile Photo"  height="100" style="border-radius: 50%;
+    padding: 0 71px;
+    margin-top: 13px;" class="project_img">
+    <div class="card-body">
+        <h4 class="card-title">{{githubProfile.name}}</h4>
+        <p class="card-text">{{githubProfile.bio}}</p>
+        <a [href]="githubProfile.html_url" target="_blank" class="btn btn-primary">Profile</a>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+@media (max-width:767px) {
+    .project_img{
+        height: 200px !important;
+        padding: 0px 50px  !important;
+    }
+}
+@media (min-width:768px) and (max-width:987px) {
+    .project_img{
+        padding: 0px 46px !important;
+    } 
+}

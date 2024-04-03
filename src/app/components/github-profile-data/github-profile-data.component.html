@@ -1,0 +1,30 @@
+<div class="card">
+    <div class="card-header">
+        <button type="button" class="btn btn-danger" style="font-weight: 600;">{{githubProfile.public_repos}} Repositories</button>
+        <button type="button" class="btn btn-success" style="    margin-left: 4px;
+        font-weight: 600;
+    ">{{githubProfile.followers}} Followers</button>
+        
+    </div>
+    <div class="card-body">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <span style="font-weight: 600;">User Name: </span><span class="font-weight-bold">{{githubProfile.name}}</span>
+            </li>
+            <li class="list-group-item">
+                <span style="font-weight: 600;">Email: </span> {{githubProfile.email}}
+            </li>
+            <li class="list-group-item">
+                <span style="font-weight: 600;">Company Employee/Student </span> {{githubProfile.company}}
+            </li>
+            <li class="list-group-item">
+                <span style="font-weight: 600;">Location </span> {{githubProfile.location}}
+            </li>
+            <li class="list-group-item">
+                <span style="font-weight: 600;">Member_Since </span> {{githubProfile.created_at |date}}
+            </li>
+
+
+        </ul>
+    </div>
+</div>
