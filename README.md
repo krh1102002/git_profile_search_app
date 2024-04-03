@@ -1,27 +1,47 @@
-# GitProfileSearch
+# GitHub Profile Search App in Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+![GitHub Profile Search App](https://drive.google.com/uc?export=view&id=1zNfNRrqL4ZJbJ2gfgRnkNvTmFi-78COt)
 
-## Development server
+The GitHub Profile Search App is a sleek, user-friendly Angular application that allows for the searching and viewing of GitHub user profiles and their associated details directly. Utilizing Angular's robust framework and the GitHub API, this app showcases the power of single-page applications for interactive user experiences.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- **User Profile Search**: Instantly search for GitHub users using their username.
+- **Profile Details Display**: View detailed information including repositories, followers, and following.
+- **Responsive Design**: Fully responsive interface for an optimal experience on any device.
+- **Angular Best Practices**: Implements Angular services, components, and modules for efficient data management and UI rendering.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started
 
-## Build
+### Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Before you begin, ensure you have the latest version of Node.js and the Angular CLI installed on your machine.
 
-## Running unit tests
+### Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the repository:
 
-## Running end-to-end tests
+```shell
+git clone https://github.com/krh1102002/git_profile_search_app.git
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2.  Navigate to the project directory
 
-## Further help
+```shell
+cd git_profile_search_app
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3.Install the necessary dependencies:
+
+```shell
+npm install
+
+```
+
+4.Start the development server:
+
+```shell
+   ng serve
+```
+
+### Open your browser and navigate to http://localhost:4200/.
